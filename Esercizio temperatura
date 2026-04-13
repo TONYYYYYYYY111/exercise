@@ -20,8 +20,7 @@ def varianza (media, lista_giorni):
     for i in range (0,len(lista_giorni)):
         num= (lista_giorni[i]-media)**2
         somma=somma+num
-        somma/(media-1)
-    return (somma)
+    return somma/len(lista_giorni)
  
 def moda (lista):
     massimo=0
